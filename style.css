@@ -73,7 +73,7 @@
 }
 
 .secondary-section  { 
-  background-color: #142850;
+  background-color: #0A1931;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: var(--color-light);
@@ -95,7 +95,7 @@
   }
   .navbar {
   min-height: 5rem;
-  background-color: #142850;
+  background-color: #0A1931;
   font-size: 20px;
 }
 
@@ -269,7 +269,7 @@
   border-top: 3px solid #ffff;
   border-bottom: 3px solid #ffff;
   padding: 30px;
-  background: #142850;
+  background: #0A1931;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
