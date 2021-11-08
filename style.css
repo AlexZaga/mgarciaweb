@@ -16,6 +16,7 @@
     padding: 10px;
     font-weight: 500;
     color: #1c1c1c;
+    
   
   }
 /*Tiulos y parrafos*/
@@ -43,15 +44,16 @@
 
 .text-titulos2 { 
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   color: var(--color-dark);
   text-align: center;
   text-transform: uppercase;
-  background: #ffff;  /* fallback for old browsers */
-
+  background: #f8f8f8;  /* fallback for old browsers */
+  font-weight: bold;
   border-radius: 3px;
   
 }
+
   
 /*Tamaños iconos*/
 .lead-xl {
@@ -118,9 +120,25 @@
 /*Tamaño titulos- Modales Quienes somos**/
 .modal-title{
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   color: #303841;
+  font-weight: bold;
+
 }
+.modal-titlesm{
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  color: #303841;
+  font-weight: bold;
+  padding: 1px;
+
+}
+.modal-lista{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:#000000;
+}
+
 
 /*Tamaño de imagen: Filosofia*/
 .img-filosofia {
@@ -167,7 +185,7 @@
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color:#03506F;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -184,7 +202,8 @@
   }
 }
 
-/*Modales-Servicios****/
+/*Modales-Servicios   width: 1000%;
+  height: 300%; ****/
 
 .modal-content {
   position: relative;
@@ -195,9 +214,9 @@
   border: 0.125rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
   outline: 0;
-  
-}
 
+
+}
 
 .modal-header .btn-close {
   padding: 0.5rem 0.5rem;
@@ -207,11 +226,11 @@
 
 .modal-body {
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;
-  color: #303841;
+  font-weight: 50;
+  color: #15191d;
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;  
+
 }
 
 
@@ -239,7 +258,6 @@
   -moz-border-radius: 500px;
   border-radius: 500px;
   -khtml-border-radius: 500px;
-  border: 3px solid #1c1c1c;
 }
 
 .zoom-in {
@@ -295,6 +313,9 @@
   font-weight: 600;
   margin-bottom: 5px;
   color: #142850;
+  font-weight: bold;
+
+
 }
 
 .info i {
@@ -360,7 +381,9 @@ color: #ffff;
   .img-rounded {
     margin: auto;
     display: block;
-    width: 90%;
+    width: 13%;
     max-width: 500px;
+
+
 }
 
