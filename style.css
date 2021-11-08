@@ -16,7 +16,6 @@ p {
   padding: 10px;
   font-weight: 500;
   color: #1c1c1c;
-  
 
 }
 /*Tiulos y parrafos*/
@@ -44,16 +43,14 @@ font-size: 16px;
 
 .text-titulos2 { 
 font-family: 'Poppins', sans-serif;
-font-size: 18px;
+font-size: 20px;
 color: var(--color-dark);
 text-align: center;
 text-transform: uppercase;
-background: #f8f8f8;  /* fallback for old browsers */
-font-weight: bold;
+background: #ffff;  /* fallback for old browsers */
 border-radius: 3px;
-
+opacity: 0.8;
 }
-
 
 /*Tamaños iconos*/
 .lead-xl {
@@ -120,25 +117,9 @@ font-size: 20px;
 /*Tamaño titulos- Modales Quienes somos**/
 .modal-title{
 font-family: 'Poppins', sans-serif;
-font-size: 26px;
+font-size: 30px;
 color: #303841;
-font-weight: bold;
-
 }
-.modal-titlesm{
-font-family: 'Poppins', sans-serif;
-font-size: 21px;
-color: #303841;
-font-weight: bold;
-padding: 1px;
-
-}
-.modal-lista{
-font-family: 'Poppins', sans-serif;
-font-size: 15px;
-color:#000000;
-}
-
 
 /*Tamaño de imagen: Filosofia*/
 .img-filosofia {
@@ -185,7 +166,7 @@ top: 0;
 left: 0;
 transition: all 0.2s ease-in-out;
 opacity: 0;
-background-color:#03506F;
+background-color: rgba(137, 167, 161, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
 opacity: 1;
@@ -202,8 +183,7 @@ font-size: 1.5rem;
 }
 }
 
-/*Modales-Servicios   width: 1000%;
-height: 300%; ****/
+/*Modales-Servicios****/
 
 .modal-content {
 position: relative;
@@ -215,8 +195,8 @@ border: 0.125rem solid rgba(0, 0, 0, 0.2);
 border-radius: 0.75rem;
 outline: 0;
 
-
 }
+
 
 .modal-header .btn-close {
 padding: 0.5rem 0.5rem;
@@ -226,11 +206,11 @@ margin: -0.5rem -0.5rem -0.5rem auto;
 
 .modal-body {
 font-family: 'Poppins', sans-serif;
-font-weight: 50;
-color: #15191d;
+font-weight: 100;
+color: #303841;
 position: relative;
 flex: 1 1 auto;
-
+padding: 1rem;  
 }
 
 
@@ -258,6 +238,7 @@ display: inline-block;
 -moz-border-radius: 500px;
 border-radius: 500px;
 -khtml-border-radius: 500px;
+border: 3px solid #1c1c1c;
 }
 
 .zoom-in {
@@ -313,9 +294,6 @@ font-size: 22px;
 font-weight: 600;
 margin-bottom: 5px;
 color: #142850;
-font-weight: bold;
-
-
 }
 
 .info i {
@@ -381,8 +359,7 @@ color: #ffff;
 .img-rounded {
   margin: auto;
   display: block;
-  width: 13%;
+  width: 90%;
   max-width: 500px;
-
-
 }
+
