@@ -185,7 +185,7 @@ top: 0;
 left: 0;
 transition: all 0.2s ease-in-out;
 opacity: 0;
-background-color:#03506F;
+background-color:rgba(137, 167, 161, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
 opacity: 1;
@@ -202,8 +202,7 @@ font-size: 1.5rem;
 }
 }
 
-/*Modales-Servicios   width: 1000%;
-height: 300%; ****/
+/*Modales-Servicios ; ****/
 
 .modal-content {
 position: relative;
