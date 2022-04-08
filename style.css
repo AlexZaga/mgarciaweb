@@ -154,6 +154,133 @@ max-width: 100%;
 width: 100%;
 }
 
+
+/* Artículos */
+.articulos{
+  padding-bottom: 200px;
+  border-top: 60px solid #0A1931;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden
+}
+
+.articulos:before {
+  position: absolute;
+  font-size: 110px;
+  right: -10%;
+  margin: 0;
+  content: 'Artículos';
+  line-height: 1;
+  top: 35%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: rgba(0, 0, 0, 0.05);
+  font-weight: 700;
+}
+
+.articulos-section {
+  padding: 50px 50px 30px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  padding-top: 10%;
+
+}
+
+.ctas {
+  background: linear-gradient(rgba(255, 255, 255, 0.856), rgba(255, 255, 255, 0.9)), url("images/AudaciaCorporativaImagen.jpeg") fixed center center;
+  padding: 30px 0;
+}
+
+.title-articulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+
+.title-articulo .dish-name {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  width: 50%;
+  margin-bottom: 0;
+  line-height: 1.7;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.descarga-articulo {
+  width: 100px;
+  height: 60px;
+  background-color: #0A1931;
+  border-radius: 12%;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 700;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  margin-left: auto;
+  font-size:13px;
+
+}
+
+.articulos-section:hover .title-articulo {
+  color: #0A1931;
+}
+
+.articulos-section:hover .title-articulo .descarga-articulo {
+  background-color: #c8c6c6;
+  color: #0A1931;
+}
+
+.articulos-section:after {
+  position: absolute;
+  width: calc(100% - 80px);
+  height: 90%;
+  background-color: #fff;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 2px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.img3 {
+  max-width: 95%;
+  height: auto;
+}
+
+
+@media (max-width: 991.98px) {
+    .articulos {
+      padding-bottom: 100px;
+  }
+  .articulos .row .col-12:first-child .articulos-section:before {
+      top: -15px;
+      left: -15px;
+  }
+  .articulos:before {
+      right: -50%;
+  }
+ 
+}
+
+
+/* End Artículos */
+
+
 /*Servicios*/
 
 /*Botón: Modal cerrar****/
