@@ -53,7 +53,6 @@ text-transform: uppercase;
 background: #f8f8f8;  /* fallback for old browsers */
 font-weight: bold;
 border-radius: 3px;
-
 }
 
 
@@ -61,7 +60,6 @@ border-radius: 3px;
 .lead-xl {
 font-size: 1.70rem;
 }
-
 
 
 /*Secciones*/
@@ -96,6 +94,18 @@ font-size: 1.70rem;
   text-align: center;
   padding:50px;
   margin-bottom: 30px;
+}
+
+.eventos {
+  color: #fff;
+  background-color: var(--color-navy);
+  font-family: 'Poppins', sans-serif;
+}
+.eventos ul li {
+  font-weight: bold;
+  font-size: medium;
+  letter-spacing: .03rem;
+  line-height: 1.6em;
 }
 
 /*Barra de navegación*/
